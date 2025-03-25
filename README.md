@@ -26,11 +26,15 @@ Forecast monthly U.S. retail and food services sales by modeling trend and seaso
 - Sales show a strong upward trend and clear seasonality, with lows at the start of each year and peaks toward year-end. A sharp dip in 2020 reflects the impact of COVID-19.
 
 <p align="left">
-  <img src="https://github.com/sindhu28ss/TimeSeriesForecasting-RetailSales/blob/main/images/dataplot.png" width="400">
-  <img src="https://github.com/sindhu28ss/TimeSeriesForecasting-RetailSales/blob/main/images/autocorr.png" width="400">
+  <img src="https://github.com/sindhu28ss/TimeSeriesForecasting-RetailSales/blob/main/images/dataplot.png" width="800">
 </p>
 
 - Autocorrelation plots reveal significant lagged correlations—strongest at lag 1 and tapering off around lag 12—confirming both trend and seasonal components in the data.
+
+<p align="left">
+  <img src="https://github.com/sindhu28ss/TimeSeriesForecasting-RetailSales/blob/main/images/autocorr.png" width="800">
+</p>
+
 
 ### 4️⃣ Data Preprocessing
 - Filtered relevant period (Jan 1992 – Dec 2023). Parsed `Period` and `Value` column and ensured proper datetime formatting and monthly frequency.

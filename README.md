@@ -45,12 +45,13 @@ Forecast monthly U.S. retail and food services sales by modeling trend and seaso
 
 ### 6️⃣ Apply Forecasting Models
 - **Model 1: Regression-Based**
-  - Linear trend + seasonality  
-  - Quadratic trend + seasonality
+  - Regression model with linear trend and seasonality  
+  - Regression model with Quadratic trend and seasonality
 - **Model 2: Two-Level Forecasting**
-  - Regression (Linear/Quadratic) + Trailing Moving Average
-- **Model 3: Holt-Winters Additive**
-- **Model 4: Auto ARIMA** (selected as the best-performing model)
+  - Regression model with linear trend and seasonality + Trailing MA for residuals
+  - Regression model with Quadratic trend and seasonality + Trailing MA for residuals
+- **Model 3: Advanced Exponential Smoothing: Holt-Winters Additive**
+- **Model 4: Autoregressive Integrated Moving Average Models:** (selected as the best-performing model)
 
 **Auto ARIMA model** (2,1,0) (0,0,1) [12]
 - **p = 2**: order 2 autoregressive model AR (1)  

@@ -51,6 +51,16 @@ Forecast monthly U.S. retail and food services sales by modeling trend and seaso
   - Regression (Linear/Quadratic) + Trailing Moving Average
 - **Model 3: Holt-Winters Additive**
 - **Model 4: Auto ARIMA** (selected as the best-performing model)
+
+**Auto ARIMA model** (2,1,0) (0,0,1) [12]
+- **p = 2**: order 2 autoregressive model AR (1)  
+- **d = 1**: order 1 differencing to remove linear trend 
+- **q = 0**: no moving average model  
+- **P = 0**: no autoregressive model for seasonal part   
+- **D = 0**: no differencing  
+- **Q = 1**: order 1 moving average MA (1) for the seasonal error lags   
+- **m = 12**: for monthly seasonality.
+
 <p align="left">
   <img src="https://github.com/sindhu28ss/TimeSeriesForecasting-RetailSales/blob/main/images/Auto%20arima.png" width="800">
 </p>

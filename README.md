@@ -1,4 +1,4 @@
-# TimeSeriesForecasting-RetailSales
+# TimeSeriesForecasting - US RetailTrade and Food Services
 
 <p align="center">
   <img src="https://github.com/sindhu28ss/TimeSeriesForecasting-RetailSales/blob/main/images/image.webp" width="400">
